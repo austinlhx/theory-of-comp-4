@@ -1,0 +1,14 @@
+# NFA Data Representation
+
+    A State is a string
+    A symbol is a 1-char string
+
+    A DFA is a (Class states alpha delta start accepts) where:
+    - states is a list of State
+    - alpha is a list of Symbol
+    - delta is a dictionary of transitions, the keys are a list pair of (state, alphabet) -> (state)
+    - start is a State
+    - accept is a list of State
+
+Time Spent: 10 hours
+Resources Consoluted: Stack Overflow, Python Documentation
